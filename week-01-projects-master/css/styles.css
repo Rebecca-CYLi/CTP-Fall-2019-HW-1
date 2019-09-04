@@ -1,0 +1,154 @@
+.container {
+	flex-direction: row; 
+	flex-wrap: nowrap;	
+	align-items: left; 
+	text-align: center;
+
+
+	margin: 0 auto;
+  	max-width: 1200px;
+  	padding: 0 1rem;
+}
+
+
+h1, h2, p, h3.p{
+	text-align: center;
+}
+
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc)*/
+@media screen and (min-width: 600px){
+	.column {
+		/*
+		float: left;*/
+	  	width: 25%;
+	  	padding: 5px;
+		padding-left: 15px;
+
+
+	  	/*display: flex; NO NEED FOR TEXT*/
+	    flex-wrap: nowrap;
+	    flex-direction: row;
+	    width: calc(100% / 4);
+	    align-content: center;
+	    text-align: center;
+	    justify-content: center;
+	}
+
+
+	.row{
+		/*
+		margin-right: -135px;
+		margin-left: -135px;
+		*/
+		margin: auto;
+		/*width: 25%; FOR CELL*/
+	}
+}
+
+/* WEBSITE CODE */
+.column img{
+	display: block;
+}
+/* --------------------------------------------------------------- */
+
+
+#para{
+	text-align: center;
+}
+
+#address_info{
+	text-align: center;
+}
+
+#imgs{
+	align-content: space-around;
+  	justify-content: space-between;
+	border-radius: 50%;
+
+
+  	max-width: 100%;
+}
+
+
+/* ---------------------------------------------------- */
+
+/* ONLY COOKIE STORE */
+.container_1 h1{
+	font-size: 50px;
+}
+
+.banner{
+	width: 100%;
+}
+
+/* Puts Transparent box in middle OF SITE!*/
+.img_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+
+.container_1 .img_text{
+	 position: absolute;
+	 background: rgb(0, 0, 0); 
+	 	/* Fallback color */
+	 background: rgba(0, 0, 0, 0.5); 
+	 	/* Black background with 0.5 opacity */
+	 color: #f1f1f1;
+	 padding: 50px;
+	 width: 35%;
+}
+
+.aboutus{
+	background-color: rgb(211,211,211);
+}
+
+.aboutus #cookiem{
+	float: left;
+	margin-left: 25px;
+}
+
+@media screen and (min-width: 600px){
+	.cookiem{
+		display: block;
+	}
+}
+
+/* ---------------------------------------------- */
+
+h4{ /* NEW TAG */
+	text-transform: uppercase;
+	color: white;
+	background-color: red;
+	margin-left: 88px;
+	margin-right: 88px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+
+/* Makes paragraph look even */
+#para{
+	text-align: justify;
+	padding-left: 100pt;
+  	padding-right: 25pt;
+  	margin-left: 150px;
+  	margin-right: 75px;
+}
+
+.contactus{
+	background-color: rgb(74,158,203);
+	color: white;
+}
+
+
+
+
+
+
